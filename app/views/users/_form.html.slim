@@ -17,4 +17,5 @@
       = render 'address_fields', f: address
     .links
       = link_to_add_association 'Add Address', f, :addresses
-  .actions = f.submit
+  br
+  .actions = f.submit :class => 'btn btn-primary'
